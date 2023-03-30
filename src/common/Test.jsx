@@ -14,7 +14,7 @@ const Test = () => {
                 <video
                     className="w-7/12"
                     loop={true}
-                    src="../src/assets/babysFight.mp4"
+                    src="https://github.com/Incmplir/bebe-vite/blob/main/src/assets/babysFight.mp4?raw=true"
                     muted
                     autoPlay={true}
                 ></video>

@@ -8,8 +8,8 @@ const Test = () => {
                     /* controls */
                     loop={true}
                     preload="auto"
-                    src="../src/assets/babySolo.mp3"
-                    autoPlay='https://github.com/Incmplir/bebe-vite/blob/main/src/assets/babySolo.mp3?raw=true'
+                    src="https://github.com/Incmplir/bebe-vite/blob/main/src/assets/babySolo.mp3?raw=true"
+                    autoPlay={true}
                 ></audio>
                 <video
                     className="w-7/12"

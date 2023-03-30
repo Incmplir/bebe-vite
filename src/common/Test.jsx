@@ -9,7 +9,7 @@ const Test = () => {
                     loop={true}
                     preload="auto"
                     src="../src/assets/babySolo.mp3"
-                    autoPlay={true}
+                    autoPlay='https://github.com/Incmplir/bebe-vite/blob/main/src/assets/babySolo.mp3?raw=true'
                 ></audio>
                 <video
                     className="w-7/12"

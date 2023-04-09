@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import bebeComponent from "./common/bebeComponent";
 
 import "./App.css";
-import Test from "./common/Test";
+import Test from "./common/bebeComponent";
 
 function App() {
     const [showBebe, setShowBebe] = useState(false);
@@ -27,7 +27,13 @@ function App() {
                             Pulsame
                         </button>
                     )}
-                    {showBebe && <Test />}
+                    {showBebe && (
+                        <Test
+                            video="../src/assets/babysFight.mp4"
+                            audio="../src/assets/babySolo.mp3"
+                            gif="../src/assets/babyDancing.gif"
+                        />
+                    )}
                 </div>
             </div>
         </>

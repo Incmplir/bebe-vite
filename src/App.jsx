@@ -29,9 +29,8 @@ function App() {
                     )}
                     {showBebe && (
                         <Test
-                            video="../src/assets/babysFight.mp4"
-                            audio="../src/assets/babySolo.mp3"
-                            gif="../src/assets/babyDancing.gif"
+                            video="https://github.com/Incmplir/bebe-vite/blob/main/src/assets/babysFight.mp4?raw=true"
+                            audio="https://github.com/Incmplir/bebe-vite/blob/main/src/assets/babySolo.mp3?raw=true"
                         />
                     )}
                 </div>
